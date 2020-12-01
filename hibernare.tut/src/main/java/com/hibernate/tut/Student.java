@@ -8,10 +8,12 @@ public class Student {
     @Id
     private int id;
     private String sName;
-    private String course;
+	private String course;
+	private Certificate certificate;
+	
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", sName=" + sName + ", course=" + course + "]";
+		return "Student [certificate=" + certificate + ", course=" + course + ", id=" + id + ", sName=" + sName + "]";
 	}
 	public Student(int id, String sName, String course) {
 		super();
@@ -40,6 +42,21 @@ public class Student {
 	}
 	public void setCourse(String course) {
 		this.course = course;
+	}
+
+	public Certificate getCertificate() {
+		return certificate;
+	}
+
+	public void setCertificate(Certificate certificate) {
+		this.certificate = certificate;
+	}
+
+	public Student(int id, String sName, String course, Certificate certificate) {
+		this.id = id;
+		this.sName = sName;
+		this.course = course;
+		this.certificate = certificate;
 	}
 
     
