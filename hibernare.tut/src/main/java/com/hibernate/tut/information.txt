@@ -1,0 +1,9 @@
+most common annotation uses
+@entiy
+@table
+@id
+@genreatedValue
+@coulmn
+@transient 
+@temporal 
+@lob
