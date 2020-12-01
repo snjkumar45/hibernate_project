@@ -21,9 +21,11 @@ public class App {
 
         SessionFactory factory = cfg.buildSessionFactory();
         Student student = new Student();
-        student.setId(101);
-        student.setsName("sanjay");
-        student.setCourse("JAva");
+         
+        
+        student.setId(106);
+        student.setsName("sanjana");
+        student.setCourse("java-script");
         //creating address class object
         Address address=new Address();
         address.setStreet("hongkong");
