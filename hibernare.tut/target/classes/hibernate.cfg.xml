@@ -30,7 +30,7 @@ and mapping class -->
       <property name = "hibernate.connection.username">
          root
       </property>
-      <property name="hbm2ddl.auto">update</property>
+      <property name="hbm2ddl.auto">create</property>
       
       <property name = "hibernate.connection.password">
          
@@ -40,6 +40,7 @@ and mapping class -->
        
       
       <mapping class="com.hibernate.tut.Student"/>
+      <mapping class="com.hibernate.tut.Address"/>
       
    </session-factory>
 </hibernate-configuration>
